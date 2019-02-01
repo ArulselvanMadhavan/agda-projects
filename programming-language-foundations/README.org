@@ -1,0 +1,9 @@
+* Programming Language Foundations in Agda
+** Preface
+   - Proposition as types asserts that a certain kind of formal
+     structure may be read in two ways - either as proposition in
+     logic or type in computing.
+   - A related structure may be read as either the proof of the
+     proposition or as a programme of the corresponding type.
+   - Aims to teach operational semantics of a programming languages,
+     with simply-typed lambda calculus.
