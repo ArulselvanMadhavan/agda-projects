@@ -1,3 +1,5 @@
 * Learning Agda
 ** Emacs Setup
    - [[https://agda.readthedocs.io/en/latest/getting-started/installation.html][Official docs are pretty good]]
+** Getting your first program to compile and run
+   - [[file:hello-world/README.org][Issues I ran into with hello-world]]

@@ -1,1 +1,10 @@
 [[https://agda.readthedocs.io/en/latest/getting-started/hello-world.html][Hello-world from official tutorial]]
+
+** Issues
+   - Don't install Agda using `stack`
+   - I installed Arch linux binaries from AUR.
+   - Make sure you read and follow the steps in
+     - [[https://agda.readthedocs.io/en/v2.5.4.2/tools/package-system.html#example-using-the-standard-library][How to link standard-library]]
+     - [[https://agda.readthedocs.io/en/v2.5.4.2/tools/package-system.html#example-using-the-standard-library][Offical repo(skip install section and follow instructions on linking)]]
+   - I ran into a weird error with compilation - [[https://stackoverflow.com/questions/49717312/haskell-compiler-fails-while-compiling-a-modified-alonzo-program][Stackoverflow solution]]
+     - fixed it by ~cabal new-install ieee754 --lib~
