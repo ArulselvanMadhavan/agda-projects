@@ -1,0 +1,18 @@
+* Induction: Proof by Induction
+  - Induction is used to prove the properties of Inductive data types.
+** Properties of Operators
+   - /Identity/
+     - Left Identity
+     - Right Identity
+   - /Associativity/
+     #+BEGIN_SRC agda
+     (m + n) + p ≡ m + (n + p)
+     #+END_SRC
+   - /Commutativity/
+     #+BEGIN_SRC agda
+     m + n ≡ n + m
+     #+END_SRC
+   - /Distributivity/
+     #+BEGIN_SRC agda
+     (m + n) * p ≡ (m * p) + (n * p)
+     #+END_SRC
